@@ -1,14 +1,14 @@
 {
  "manifest_version": 2,
  "name": "Qukick Note",
- "description": "The most popular movies and TV shows in your   default tab. Includes ratings, summaries and the ability to watch trailers.",
+ "description": "Chrome extension to take notes while browse",
  "version": "1",
  "author": "Ravindu Thaveesha",
  "background": {
-   "scripts":  ["event.js"]
+   "scripts":  ["background.js"]
  },
  "browser_action": {
-   "default_icon": "tab-icon.png",
+   "default_icon": "/images/papers-64.png",
    "default_title": "Qukick Note",
    "default_popup": "newtab.html"
  },
@@ -20,8 +20,8 @@
     "webNavigation"
   ],
   "icons": {
-    "16": "tab-icon.png",
-    "48": "tab-icon.png",
-    "128":"tab-icon.png"
+    "16": "/images/papers-16.png",
+    "48": "/images/papers-64.png",
+    "128":"/images/papers-64.png"
    }
 }
