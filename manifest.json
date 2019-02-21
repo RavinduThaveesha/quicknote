@@ -1,0 +1,27 @@
+{
+ "manifest_version": 2,
+ "name": "Qukick Note",
+ "description": "The most popular movies and TV shows in your   default tab. Includes ratings, summaries and the ability to watch trailers.",
+ "version": "1",
+ "author": "Ravindu Thaveesha",
+ "background": {
+   "scripts":  ["event.js"]
+ },
+ "browser_action": {
+   "default_icon": "tab-icon.png",
+   "default_title": "Qukick Note",
+   "default_popup": "newtab.html"
+ },
+ "permissions": [
+	"activeTab",
+    "contextMenus",
+    "storage",
+    "tabs",
+    "webNavigation"
+  ],
+  "icons": {
+    "16": "tab-icon.png",
+    "48": "tab-icon.png",
+    "128":"tab-icon.png"
+   }
+}
